@@ -9,7 +9,7 @@
   "scripts": {
     "prepack": "tsc"
   },
-  "gitHead": "aecd382076a91eabc16bc24021bba82b9771d814",
+  "gitHead": "f62c6c50229b1f97c7c40d2e92cd3afc0b3af099",
   "devDependencies": {
     "typescript": "^3.8.3"
   }
