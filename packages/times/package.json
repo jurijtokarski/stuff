@@ -8,7 +8,8 @@
   "scripts": {
     "prepack": "tsc"
   },
-  "gitHead": "f62c6c50229b1f97c7c40d2e92cd3afc0b3af099",
+  "gitHead": "71a5f182ee0862a4691e8e5dec466bd06bbc13fb",
+  "private": false,
   "devDependencies": {
     "typescript": "^3.8.3"
   }
