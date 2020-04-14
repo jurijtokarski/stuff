@@ -1,0 +1,12 @@
+{
+  "name": "@jurijtokarski/cache",
+  "version": "0.0.0",
+  "description": "In-memory cache class",
+  "author": "J.T. <inbox@jurijtokarski.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "github:jurijtokarski/stuff",
+  "scripts": {
+    "prepack": "tsc"
+  }
+}

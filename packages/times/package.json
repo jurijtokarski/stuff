@@ -1,0 +1,11 @@
+{
+  "name": "@jurijtokarski/times",
+  "version": "0.0.0",
+  "description": "Simple time converting to miliseconds",
+  "author": "J.T. <inbox@jurijtokarski.com>",
+  "license": "MIT",
+  "repository": "github:jurijtokarski/stuff",
+  "scripts": {
+    "prepack": "tsc"
+  }
+}
