@@ -7,5 +7,9 @@
   "repository": "github:jurijtokarski/stuff",
   "scripts": {
     "prepack": "tsc"
+  },
+  "gitHead": "f278db1f1ed81e7f8d16437ab98db26acb2adc26",
+  "devDependencies": {
+    "typescript": "^3.8.3"
   }
 }
