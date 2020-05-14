@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "lib": [
       "dom",
       "es5",
