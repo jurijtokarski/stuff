@@ -9,7 +9,7 @@
   "scripts": {
     "prepack": "tsc"
   },
-  "gitHead": "18a59123ba9ea928ba618e10352cec92dad93ab1",
+  "gitHead": "8a6a974944c4ca5c1514c429c7160d06862cef40",
   "publishConfig": {
     "access": "public"
   },
