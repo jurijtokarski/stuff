@@ -4,11 +4,12 @@
   "description": "Simple time converting to miliseconds",
   "author": "J.T. <inbox@jurijtokarski.com>",
   "license": "MIT",
+  "main": "index.js",
   "repository": "github:jurijtokarski/stuff",
   "scripts": {
     "prepack": "tsc"
   },
-  "gitHead": "ec2f3128cde4914b47d612d7bcb78001c1384a9e",
+  "gitHead": "18a59123ba9ea928ba618e10352cec92dad93ab1",
   "publishConfig": {
     "access": "public"
   },
