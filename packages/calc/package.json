@@ -1,0 +1,19 @@
+{
+  "name": "@jurijtokarski/calc",
+  "version": "0.1.9",
+  "description": "Math and arrays calculation helpers",
+  "author": "J.T. <inbox@jurijtokarski.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "github:jurijtokarski/stuff",
+  "scripts": {
+    "prepack": "tsc"
+  },
+  "gitHead": "8a6a974944c4ca5c1514c429c7160d06862cef40",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
