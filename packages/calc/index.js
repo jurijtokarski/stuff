@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+exports.group = exports.average = exports.sum = exports.round = void 0;
 exports.round = function (value, precision) { return Number(value.toFixed(precision)); };
 exports.sum = function (array) { return array.reduce(function (result, value) { return result + value; }, 0); };
 exports.average = function (array) { return exports.sum(array) / array.length; };
