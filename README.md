@@ -2,7 +2,7 @@
 
 Simple snippets I'm using in different projects. 
 
-## Packages
+## Package list
 
 - [@jurijtokarski/cache](https://github.com/jurijtokarski/stuff/tree/master/packages/cache).
 - [@jurijtokarski/times](https://github.com/jurijtokarski/stuff/tree/master/packages/times).
