@@ -1,7 +1,12 @@
 # In-memory cache class
 
-```javascript
+## Install
 
+`npm i @jurijtokarski/cache` or `yarn add @jurijtokarski/cache`.
+
+## Example
+
+```javascript
 const cache = new Cache();
 
 cache.get("example"); // => { value: null, status: 0 }
