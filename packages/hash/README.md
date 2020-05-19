@@ -15,7 +15,7 @@ getMD5Hash("dummy string"); // =>
 ## `getUniqueReadableCode`
 
 ```javascript
-getUniqueReadableCode("dummy string"); // => 
+getUniqueReadableCode(); // => 
 ```
 
 ## Definitions
