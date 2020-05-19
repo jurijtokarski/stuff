@@ -31,3 +31,7 @@ average([6, 12, 4]); // => 7.33
 gruup([1, 2, 3, 4], 2); // => [[1, 2], [3, 4]]
 average([6, 12, 4], 2); // => [[6, 12], [4]]
 ```
+
+## Definitions
+
+Feel free to check TypeScript's [definitions](https://github.com/jurijtokarski/stuff/blob/master/packages/calc/index.d.ts) for the package.
