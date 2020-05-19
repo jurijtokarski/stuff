@@ -2,7 +2,7 @@
 
 Simple snippets I'm using in different projects. 
 
-## Package list
+## Packages
 
 - [@jurijtokarski/cache](https://github.com/jurijtokarski/stuff/tree/master/packages/cache) in-memory cache class.
 - [@jurijtokarski/times](https://github.com/jurijtokarski/stuff/tree/master/packages/times) simple time converting to miliseconds.
