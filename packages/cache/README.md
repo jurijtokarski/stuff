@@ -20,3 +20,7 @@ cache.get("example"); // => { value: [1, 2, 3], status: 1 }
 - `0` means value was not set yet
 - `1` means value was set, but was expired
 - `2` means freash value
+
+## Definitions
+
+Feel free to check TypeScript's [definitions](https://github.com/jurijtokarski/stuff/blob/master/packages/cache/index.d.ts) for package.
