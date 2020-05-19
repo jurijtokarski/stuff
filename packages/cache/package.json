@@ -1,6 +1,6 @@
 {
   "name": "@jurijtokarski/cache",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "In-memory cache class",
   "author": "J.T. <inbox@jurijtokarski.com>",
   "license": "MIT",
