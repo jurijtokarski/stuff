@@ -17,6 +17,6 @@ cache.get("example"); // => { value: [1, 2, 3], status: 1 }
 
 ## Statuses
 
-`0` means value was not set yet
-`1` means value was set, but was expired
-`2` means freash value
+- `0` means value was not set yet
+- `1` means value was set, but was expired
+- `2` means freash value
