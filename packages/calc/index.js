@@ -20,13 +20,14 @@ var __spread = (this && this.__spread) || function () {
     return ar;
 };
 exports.__esModule = true;
-exports.timeFrames = exports.group = exports.unique = exports.min = exports.max = exports.average = exports.sum = exports.round = void 0;
+exports.timeFrames = exports.frames = exports.group = exports.ofLength = exports.unique = exports.min = exports.max = exports.average = exports.sum = exports.round = void 0;
 exports.round = function (value, precision) { return Number(value.toFixed(precision)); };
 exports.sum = function (array) { return array.reduce(function (result, value) { return result + value; }, 0); };
 exports.average = function (array) { return exports.sum(array) / array.length; };
 exports.max = function (array) { return Math.max.apply(Math, __spread(array)); };
 exports.min = function (array) { return Math.min.apply(Math, __spread(array)); };
 exports.unique = function (array) { return __spread(new Set(array)); };
+exports.ofLength = function (length) { return Array.from({ length: length }); };
 exports.group = function (array, size) { return array.reduce(function (result, element, index) {
     if (index % size) {
         result[result.length - 1].push(element);
@@ -36,7 +37,7 @@ exports.group = function (array, size) { return array.reduce(function (result, e
     }
     return result;
 }, []); };
-exports.timeFrames = function (start, max, gap, useMaxAsLastItem) {
+exports.frames = function (start, max, gap, useMaxAsLastItem) {
     var a = [];
     for (var i = start; i < max; i = i + gap) {
         var next = i + gap;
@@ -54,3 +55,5 @@ exports.timeFrames = function (start, max, gap, useMaxAsLastItem) {
     }
     return a;
 };
+// alias
+exports.timeFrames = exports.frames;
