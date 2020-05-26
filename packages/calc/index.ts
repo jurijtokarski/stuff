@@ -10,6 +10,8 @@ export const min = (array: number[]): number => Math.min(...array);
 
 export const unique = <T = any>(array: T[]): T[] => [...new Set(array)];
 
+export const ofLength = (length: number): undefined[] => Array.from<undefined>({ length });
+
 export const group = <T>(array: T[], size: number): T[][] => array.reduce<T[][]>((result, element, index) => {
   if (index % size) {
     result[result.length - 1].push(element);
@@ -19,7 +21,7 @@ export const group = <T>(array: T[], size: number): T[][] => array.reduce<T[][]>
   return result;
 }, []);
 
-export const timeFrames = (start: number, max: number, gap: number, useMaxAsLastItem?: boolean): [number, number][] => {
+export const frames = (start: number, max: number, gap: number, useMaxAsLastItem?: boolean): [number, number][] => {
   const a: [number, number][] = [];
 
   for (let i = start; i < max; i = i + gap) {
@@ -38,3 +40,6 @@ export const timeFrames = (start: number, max: number, gap: number, useMaxAsLast
 
   return a;
 }
+
+// alias
+export const timeFrames = frames;
