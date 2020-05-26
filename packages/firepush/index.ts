@@ -12,17 +12,21 @@ export class FirePush {
 
   isSupported = () => this.messaging && ("Notification" in window) && ("localStorage" in window);
 
-  initialize = () => {
+  initialize = (): this => {
     if (!this.isSupported()) {
       throw new Error("Not all required browser features are supported");
     }
 
     this.messaging.usePublicVapidKey(this.key);
     this.requestPermission().then(this.handleRequestPermission);
+
+    return this;
   }
 
-  setOnMessageCallback = (callback: OnMessageCallback) => {
-    this.onMessageCallbackOnMessageCallback = callback
+  setOnMessageCallback = (callback: OnMessageCallback): this => {
+    this.onMessageCallbackOnMessageCallback = callback;
+    
+    return this;
   };
 
   private requestPermission = () => Notification.requestPermission();

@@ -9,7 +9,7 @@ var FirePush = /** @class */ (function () {
         this.isSupported = function () { return _this.messaging && ("Notification" in window) && ("localStorage" in window); };
         this.initialize = function () {
             if (!_this.isSupported()) {
-                throw new Error("Not all required browser featured are supported");
+                throw new Error("Not all required browser features are supported");
             }
             _this.messaging.usePublicVapidKey(_this.key);
             _this.requestPermission().then(_this.handleRequestPermission);
