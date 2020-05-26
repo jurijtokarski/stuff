@@ -1,5 +1,11 @@
 # Firebase Cloud Messageing web-push helper
 
+## Install
+
+`npm i @jurijtokarski/firepush` or `yarn add @jurijtokarski/firepush`.
+
+## Example
+
 ```
 import { FirePush } from "@jurijtokarski/firepush";
 
@@ -32,3 +38,7 @@ new FirePush(window.firebase.messaging(), KEY)
     });
   });
 ```
+
+## Definitions
+
+Feel free to check TypeScript's [definitions](https://github.com/jurijtokarski/stuff/blob/master/packages/firepush/index.d.ts) for the package.
