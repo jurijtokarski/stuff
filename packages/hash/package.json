@@ -1,6 +1,6 @@
 {
   "name": "@jurijtokarski/hash",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Hash and ID generator helpers",
   "author": "J.T. <inbox@jurijtokarski.com>",
   "license": "MIT",
