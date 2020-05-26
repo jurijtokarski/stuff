@@ -40,5 +40,4 @@ export class FirePush {
   private subscribeMessages = () => this.messaging.onMessage(this.handleNewMessage);
 
   private handleNewMessage = (payload: any) => this.onMessageCallbackOnMessageCallback && this.onMessageCallbackOnMessageCallback(payload);
-
 }
