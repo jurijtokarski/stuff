@@ -14,7 +14,7 @@ export class FirePush {
 
   initialize = () => {
     if (!this.isSupported()) {
-      throw new Error("Not all required browser featured are supported");
+      throw new Error("Not all required browser features are supported");
     }
 
     this.messaging.usePublicVapidKey(this.key);
