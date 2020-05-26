@@ -13,9 +13,11 @@ var FirePush = /** @class */ (function () {
             }
             _this.messaging.usePublicVapidKey(_this.key);
             _this.requestPermission().then(_this.handleRequestPermission);
+            return _this;
         };
         this.setOnMessageCallback = function (callback) {
             _this.onMessageCallbackOnMessageCallback = callback;
+            return _this;
         };
         this.requestPermission = function () { return Notification.requestPermission(); };
         this.handleRequestPermission = function (result) { return result === "granted" && _this.setup(); };

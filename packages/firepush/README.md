@@ -1,4 +1,4 @@
-# Firebase Cloud Messageing web-push helper
+# Firebase Cloud Messaging web-push helper
 
 ## Install
 

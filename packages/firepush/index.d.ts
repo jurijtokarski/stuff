@@ -6,8 +6,8 @@ export declare class FirePush {
     private onMessageCallbackOnMessageCallback?;
     constructor(messaging: firebase.messaging.Messaging, key: string);
     isSupported: () => boolean;
-    initialize: () => void;
-    setOnMessageCallback: (callback: OnMessageCallback) => void;
+    initialize: () => this;
+    setOnMessageCallback: (callback: OnMessageCallback) => this;
     private requestPermission;
     private handleRequestPermission;
     private setup;
