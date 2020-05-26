@@ -1,0 +1,18 @@
+{
+  "name": "@jurijtokarski/format",
+  "version": "0.4.1",
+  "description": "Formatting helpers",
+  "author": "J.T. <inbox@jurijtokarski.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "github:jurijtokarski/stuff",
+  "scripts": {
+    "prepack": "tsc"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}

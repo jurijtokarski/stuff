@@ -9,6 +9,7 @@ Simple snippets I'm using in different projects.
 - [@jurijtokarski/calc](https://github.com/jurijtokarski/stuff/tree/master/packages/calc) math and arrays calculation helpers.
 - [@jurijtokarski/hash](https://github.com/jurijtokarski/stuff/tree/master/packages/hash) hash and ID generator helpers.
 - [@jurijtokarski/firepush](https://github.com/jurijtokarski/stuff/tree/master/packages/firepush) Firebase Cloud Messageing web-push helper.
+- [@jurijtokarski/format](https://github.com/jurijtokarski/stuff/tree/master/packages/format) formatting helpers.
 
 ## Why?
 
