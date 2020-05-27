@@ -1,6 +1,6 @@
 {
   "name": "@jurijtokarski/firepush",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Firebase Cloud Messaging web-push helper",
   "author": "J.T. <inbox@jurijtokarski.com>",
   "license": "MIT",
