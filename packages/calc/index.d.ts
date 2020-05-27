@@ -5,6 +5,8 @@ export declare const max: (array: number[]) => number;
 export declare const min: (array: number[]) => number;
 export declare const unique: <T = any>(array: T[]) => T[];
 export declare const ofLength: (length: number) => undefined[];
+export declare const randomInRange: (from: number, to: number, precision?: number | undefined) => number;
+export declare const randomInArray: <T = any>(array: T[]) => T;
 export declare const group: <T>(array: T[], size: number) => T[][];
 export declare const frames: (start: number, max: number, gap: number, useMaxAsLastItem?: boolean | undefined) => [number, number][];
 export declare const timeFrames: (start: number, max: number, gap: number, useMaxAsLastItem?: boolean | undefined) => [number, number][];

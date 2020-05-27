@@ -12,6 +12,10 @@ export const unique = <T = any>(array: T[]): T[] => [...new Set(array)];
 
 export const ofLength = (length: number): undefined[] => Array.from<undefined>({ length });
 
+export const randomInRange = (from: number, to: number, precision?: number): number => round(Math.random() * (to - from) + from, precision || 0);
+
+export const randomInArray = <T = any>(array: T[]) => array[Math.floor((Math.random() * array.length))];
+
 export const group = <T>(array: T[], size: number): T[][] => array.reduce<T[][]>((result, element, index) => {
   if (index % size) {
     result[result.length - 1].push(element);

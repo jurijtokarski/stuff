@@ -59,6 +59,29 @@ frames(0, 70, 8); // => [[0, 8], [8, 16], [16, 24], [24, 32], [32, 40], [40, 48]
 frames(0, 70, 8, true); // => [[0, 8], [8, 16], [16, 24], [24, 32], [32, 40], [40, 48], [48, 56], [56, 64], [64, 70]],
 ```
 
+## `randomInArray`
+
+```javascript
+randomInArray([1, 2, 3, 4, 5]); // => 3
+randomInArray([1, 2, 3, 4, 5]); // => 1
+randomInArray([1, 2, 3, 4, 5]); // => 5
+randomInArray([1, 2, 3, 4, 5]); // => 3
+randomInArray([1, 2, 3, 4, 5]); // => 5
+```
+
+## `randomInRange`
+
+```javascript
+randomInRange(0, 1); // => 0
+randomInRange(0, 1); // => 1
+randomInRange(0, 1, 2); // => 0.87
+randomInRange(0, 1, 2); // => 0.02
+randomInRange(4, 10); // => 9
+randomInRange(4, 10); // => 4
+randomInRange(4, 10, 3); // => 7.689
+randomInRange(4, 10, 3); // => 9.448
+```
+
 ## Definitions
 
 Feel free to check TypeScript's [definitions](https://github.com/jurijtokarski/stuff/blob/master/packages/calc/index.d.ts) for the package.
