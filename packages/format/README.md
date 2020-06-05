@@ -2,7 +2,7 @@
 
 ## Install
 
-`npm i @jurijtokarski/calc` or `yarn add @jurijtokarski/calc`.
+`npm i @jurijtokarski/format` or `yarn add @jurijtokarski/format`.
 
 ## `formatPrice`
 
@@ -12,6 +12,15 @@ formatPrice(100.0981923876, "USD"); // 100,10 USD (third param set based on brow
 formatPrice(100.0981923876, "USD", "en"); // $100.10
 formatPrice(100.0981923876, "PLN", "uk"); // 100,10 PLN
 formatPrice(100.0981923876, "PLN", "en"); // PLN 100.10
+```
+
+## `formatPrice`
+
+```javascript
+capitalize("hello"); // Hello
+capitalize("hELLO"); // Hello
+capitalize("hEllO"); // Hello
+capitalize("HELLO"); // Hello
 ```
 
 ## Definitions
